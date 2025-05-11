@@ -3,138 +3,260 @@ export default {
   data() {
     return {
       activeTab: 1,
-      items: [
+      tech: [
         {
           id: 1,
-          name: 'Web Personal',
-          imageUrl: 'portfolio_v2',
-          status: 'Pagina web creado por Specteado a base de VueJS.',
-          tech: 'VueJS, Tailwind',
-          github: 'https://github.com/Specteado/Portofolio',
-          demo: 'https://specteado.netlify.app/'
+          name: 'HTML',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/1051/1051277.png',
+          status: 'Advanced'
         },
-        /*{
+        {
           id: 2,
-          name: 'Web Bot Discord',
-          imageUrl: 'sahabatmuslim',
-          status: 'A website that has a responsive display to make it easier for Muslims to read the Quran from anywhere.',
-          tech: 'HTTML, CSS',
-          demo: 'https://sahabat-muslim.netlify.app/'
+          name: 'CSS',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/732/732190.png',
+          status: 'Advanced'
         },
         {
           id: 3,
-          name: 'SISTEKDES',
-          imageUrl: 'sistekdes',
-          status: 'Sistem Informasi dan Teknologi Desa, a web application to assist village government work in administration, population data management, community services, etc.',
-          tech: 'Laravel 9, Bootstrap',
-          github: 'null',
-          demo: 'null'
+          name: 'PHP',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-php-2038871-1720084.png',
+          status: 'Advanced'
         },
         {
           id: 4,
-          name: 'Bumdesma',
-          imageUrl: 'bumdesma',
-          status: 'a web application used by village-owned enterprises at the sub-district level to make it easier for them in terms of accounting that is equipped with a microfinance balance.',
-          tech: 'Laravel 8, Bootstrap',
-          github: 'null',
-          demo: 'null'
+          name: 'Javascript',
+          imageUrl: 'https://cdn.icon-icons.com/icons2/2415/PNG/512/javascript_original_logo_icon_146455.png',
+          status: 'Advance'
         },
         {
           id: 5,
-          name: 'SP2SE',
-          imageUrl: 'sp2se',
-          status: 'Sistem Percepatan Pelayanan Surat Elektronik, A web application to manage letters in the village.',
-          tech: 'Codeigniter 3, Bootstrap',
-          github: 'null',
-          demo: 'null'
+          name: 'Laravel',
+          imageUrl: 'https://cdn.worldvectorlogo.com/logos/laravel-2.svg',
+          status: 'Advance'
+        },
+        {
+          id: 6,
+          name: 'Codeigniter',
+          imageUrl: 'https://cdn-peanutsquare.b-cdn.net/wp-content/uploads/2022/11/codeigniter-logo.png',
+          status: 'Intermediate'
+        },
+        {
+          id: 7,
+          name: 'VueJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-vue-282497.png?f=webp',
+          status: 'Intermediate'
+        },
+        {
+          id: 8,
+          name: 'AlpineJS',
+          imageUrl: 'https://avatars.githubusercontent.com/u/59030169?s=200&v=4',
+          status: 'Beginner'
+        },
+        {
+          id: 9,
+          name: 'NodeJS',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-node-js-1174925.png',
+          status: 'Beginner'
+        },
+        {
+          id: 10,
+          name: 'Tailwind',
+          imageUrl: 'https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg',
+          status: 'Advance'
+        },
+        {
+          id: 11,
+          name: 'Bootstrap',
+          imageUrl: 'https://getbootstrap.com/docs/5.2/assets/brand/bootstrap-logo-shadow.png',
+          status: 'Intermediate'
+        },
+        {
+          id: 12,
+          name: 'ReactJS',
+          imageUrl: 'https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png',
+          status: 'Beginner'
         }
-      */]
+      ],
+      tools: [
+        {
+          id: 1,
+          name: 'Git',
+          imageUrl: 'https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png',
+          status: 'Version Control'
+        },
+        {
+          id: 2,
+          name: 'GitHub',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/25/25231.png',
+          status: 'Git Hosting'
+        },
+        {
+          id: 3,
+          name: 'NPM',
+          imageUrl: 'https://cdn.iconscout.com/icon/free/png-256/free-npm-3-1175132.png',
+          status: 'Package Manager'
+        },
+        {
+          id: 4,
+          name: 'MySQL',
+          imageUrl: 'https://cdn-icons-png.flaticon.com/512/5968/5968313.png',
+          status: 'Database'
+        },
+      ]
     };
   }
 }
 </script>
 <template>
+  <div
+    class="bg-[#1e1e1f] px-5 py-5 md:px-12 md:py-10 text-left border border-[#383838] rounded-3xl text-amber-50 mx-3 mb-5">
+    <article data-page="about">
+
+      <header>
+        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
+          About Me &nbsp;
+          <div class="h-[1px] w-32 bg-amber-200 md:w-96 aos-init aos-animate" data-aos="zoom-in-left"
+            data-aos-duration="600"></div>
+        </div>
+      </header>
+
+      <section
+        class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
+        <div class="flex justify-center">
+          <img class="w-9/12 rounded-full mb-3 fadein-up"
+            src="https://i1.sndcdn.com/avatars-000214125831-5q6tdw-t500x500.jpg" alt="Foto">
+        </div>
+        <div class="md:w-7/12">
+          <p class="mb-3 md:mb-7 fadein-left fadeins-1">
+            &nbsp; &nbsp; &nbsp; Hi everyone! My name is Bagas Rakha Putra. I'm a web developer from Bogor, West Java. I
+            have 1 year of experience in back-end web development.
+            I really enjoy what I do right now, in my opinion, creating programs is not just a job, but also an art that
+            has
+            aesthetic value
+          </p>
+          <p class="mb-3 fadein-left fadeins-2">
+            &nbsp; &nbsp; &nbsp; My job is to build your website to be functional and user-friendly yet still attractive.
+            In addition, I provide a personal touch to your product and ensure that the website catches attention and is
+            easy to use.
+            My goal is to convey your message and identity in the most creative way. If you are interested in hiring me,
+            please contact the listed contact.
+          </p>
+        </div>
+
+      </section>
+
+    </article>
+  </div>
+
   <div class="px-5 py-5 md:px-12 md:py-10 text-left text-amber-50 mx-3">
     <article data-page="about">
       <header>
-        <div
-          class="text-2xl font-bold text-white mb-10 fadein-bot title-section flex items-center justify-center flex-col">
-          <!-- <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate"></div> -->
-          <h4>Proyectos/Experencia</h4>
-          <h4 class="text-base font-normal text-transparent bg-clip-text bg-gradient-to-r from-slate-100 to-amber-300">
-            Explora los proyectos en los que he trabajado hasta ahora</h4>
+        <div class="text-2xl font-bold text-white mb-5 fadein-bot title-section flex items-center">
+          <div class="h-[1px] w-10 bg-amber-200 md:w-20 aos-init aos-animate" data-aos="zoom-in-left"
+            data-aos-duration="600"></div>
+          &nbsp; Skills
         </div>
       </header>
       <section>
         <div>
-          <div class="grid grid-cols-1 gap-4 pb-32 md:grid-cols-3 md:gap-3 xl:grid-cols-3 xl:gap-3 2xl:gap-5 fade-zoom-in">
-            <div v-for="item in items" :key="item.id">
+          <ul class="flex flex-wrap text-sm font-medium text-center text-gray-500 dark:text-gray-400 mb-5">
+            <li class="mr-2">
+              <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 1 }" @click="activeTab = 1">Tech Stack</button>
+            </li>
+            <li class="mr-2">
+              <button class="inline-block px-4 py-3 rounded-lg hover:text-white"
+                :class="{ 'text-amber-200 bg-amber-200 bg-opacity-10': activeTab === 2 }" @click="activeTab = 2">Tools</button>
+            </li>
+          </ul>
+        </div>
+        <div v-show="activeTab === 1">
+          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+            <div v-for="item in tech" :key="item.id">
               <div
-                class="item-card flex flex-col items-center gap-2 rounded bg-[#1e1e1f] hover:bg-[#282828] border border-[#383838] rounded-xl text-amber-50 md:gap-3 px-5 py-5 lg:px-5 ">
-                <div class="flex h-12 w-12 items-center justify-center p-0 h-full w-full lg:p-0 zoom-in">
-                  <img alt="HTML" loading="lazy" decoding="async" data-nimg="1" class="drop-shadow-xl rounded rounded-xl"
-                    :src="'/img/portfolio-' + item.imageUrl + '.png'">
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
+                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                    :src="item.imageUrl" style="color: transparent;">
                 </div>
-                <div class="w-full flex flex-col gap-2 items-center text-sm md:text-base lg:text-lg">
-                  <div class="title-text font-medium text-secondary">{{ item.name }}
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
                   </div>
-                  <div class="w-full text-left text-[10px] text-[#c1c1c1] md:text-xs lg:text-sm">
+                  <div
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
                     {{ item.status }}</div>
-                  <div class="w-full mt-4 text-normal text-sm text-left text-amber-200">
-                    {{ item.tech }}
-                  </div>
-                  <div class="w-full flex justify-end">
-                    <div class="flex cursor-pointer items-end gap-2 text-primary">
-                      <a v-if="item.github !== 'null'"
-                        :href="item.github" target="_blank" rel="noreferrer"
-                        title="View github repository" class="transition-all hover:text-accent">
-                        <svg stroke="currentColor"
-                          fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
-                          height="16" width="16" xmlns="http://www.w3.org/2000/svg">
-                          <path
-                            d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22">
-                          </path>
-                        </svg></a>
-                        <a v-if="item.demo !== 'null'" :href="item.demo" target="_blank" rel="noreferrer"
-                        title="View finished project" class="transition-all hover:text-accent">
-                        <svg stroke="currentColor"
-                          fill="none" stroke-width="2" viewBox="0 0 24 24" stroke-linecap="round" stroke-linejoin="round"
-                          height="18" width="18" xmlns="http://www.w3.org/2000/svg">
-                          <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
-                          <polyline points="15 3 21 3 21 9"></polyline>
-                        <line x1="10" y1="14" x2="21" y2="3"></line>
-                      </svg></a></div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
-  </article>
-</div></template>
+        <div v-show="activeTab === 2">
+          <div class="grid grid-cols-2 gap-4 pb-32 md:grid-cols-3 md:gap-8 xl:grid-cols-4 xl:gap-10 2xl:gap-12">
+            <div v-for="item in tools" :key="item.id">
+              <div
+                class="item-tech flex cursor-pointer items-center gap-2 rounded border border-amber-200 px-2 py-2 hover:bg-amber-200 hover:bg-opacity-10 md:gap-3 lg:px-3">
+                <div class="flex h-12 w-12 items-center justify-center p-0 lg:h-16 lg:w-16 lg:p-2 zoom-in">
+                  <img alt="HTML" loading="lazy" width="32" height="32" decoding="async" data-nimg="1"
+                    class="img-tech drop-shadow-xl transition-all duration-300 h-[65%] w-[65%] lg:h-[85%] lg:w-[85%]  "
+                    :src="item.imageUrl" style="color: transparent;">
+                </div>
+                <div class="flex items-center text-sm md:text-base lg:text-lg">
+                  <div class="tech font-medium text-secondary transition-all duration-300 translate-y-0 ">{{ item.name }}
+                  </div>
+                  <div
+                    class="status-tech opacity-0 absolute mt-5 text-[10px] text-amber-200 transition-all duration-300 md:text-xs lg:text-sm">
+                    {{ item.status }}</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </article>
+  </div>
+</template>
 
 <style>
-.item-card:hover {
-  transition: transform 0.3s ease;
-  transform: translateY(-8px);
+.fadein-left {
+  opacity: 0;
+  animation: fadeInLeft 0.5s ease-out forwards;
 }
-svg:hover{
-  stroke: #ffdb70;
-}
-@keyframes fadeZoomIn {
+
+@keyframes fadeInLeft {
   0% {
     opacity: 0;
-    transform: scale(0.5);
+    transform: translateX(100%);
   }
+
   100% {
     opacity: 1;
-    transform: scale(1);
+    transform: translateX(0);
   }
 }
 
-/* Menggunakan animasi pada elemen yang diinginkan */
-.fade-zoom-in {
-  animation: fadeZoomIn 1s ease-in-out;
+.fadeins-1 {
+  animation-delay: 500ms;
+}
+
+.fadeins-2 {
+  animation-delay: 800ms;
+}
+
+.img-tech,
+.tech {
+  transition: transform 0.3s ease;
+}
+
+.item-tech:hover .img-tech {
+  transform: scale(1.3);
+}
+
+.item-tech:hover .tech {
+  transform: translateY(-12px);
+}
+
+.item-tech:hover .status-tech {
+  opacity: 1;
 }
 </style>

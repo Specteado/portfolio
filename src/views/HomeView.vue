@@ -25,7 +25,7 @@
           </svg>Download Resume</button> 
       </div>
       <div class="flex justify-center md:justify-start fadein-right"><img alt="avatar" fetchpriority="high" width="300" height="300" decoding="async" data-nimg="1"
-          class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://r2.guns.lol/bee0a00b-d561-42aa-bad6-8f0282f8a857.gif">
+          class="w-10/12 md:h-auto rounded-full border-4 border-amber-200 pict" src="https://media.discordapp.net/attachments/1366212695455432734/1371270527976476722/2222.gif?ex=682286b2&is=68213532&hm=f05daf6f0ec6675d48cf6c31fe558da63954089ede751527728f348b3089cd79&=">
       </div>
     </main>
   </template>

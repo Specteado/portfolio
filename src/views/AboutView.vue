@@ -124,7 +124,7 @@ export default {
         class="text-sm md:text-lg text-justify flex flex-col gap-4 md:flex-row md:gap-8 md:justify-left md:items-center">
         <div class="flex justify-center">
           <img class="w-9/12 rounded-full mb-3 fadein-up"
-            src="https://cdn.discordapp.com/attachments/1366212695455432734/1371270527976476722/2222.gif?ex=682286b2&is=68213532&hm=f05daf6f0ec6675d48cf6c31fe558da63954089ede751527728f348b3089cd79&" alt="Foto">
+            src="https://media.discordapp.net/attachments/1366212695455432734/1371270527976476722/2222.gif?ex=682286b2&is=68213532&hm=f05daf6f0ec6675d48cf6c31fe558da63954089ede751527728f348b3089cd79&=" alt="Foto">
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">

@@ -128,14 +128,14 @@ export default {
         </div>
         <div class="md:w-7/12">
           <p class="mb-3 md:mb-7 fadein-left fadeins-1">
-            &nbsp; &nbsp; &nbsp;¡Hola, buenas! Me llamo Jusef Masabanda, más conocido como Specteado. Soy programador en el
+            &nbsp; &nbsp; &nbsp; ¡Hola, buenas! Me llamo Jusef Masabanda, más conocido como Specteado. Soy programador en el
             ámbito de FiveM, Node.js, LUA, Editor y JavaScript.
             Tengo 4 años de experiencia como programador, y actualmente me estoy formando en Ciberseguridad,
             trabajando con máquinas
             Linux a través de DockerLabs.
           </p>
           <p class="mb-3 fadein-left fadeins-2">
-            &nbsp; &nbsp; &nbsp;Actualmente estoy trabajando en la creación de una página web con Vue para probar distintas
+            &nbsp; &nbsp; &nbsp; Actualmente estoy trabajando en la creación de una página web con Vue para probar distintas
             funcionalidades. También he estado programando bots de Discord utilizando las librerías de Node.js y
             explotando máquinas en DockerLabs, lo cual me resulta muy fácil.
             Mi objetivo en este momento es ser contratado por una empresa y adquirir más conocimientos en

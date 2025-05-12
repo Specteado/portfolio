@@ -13,6 +13,13 @@ export default {
           github: 'https://github.com/Specteado/Portofolio',
           demo: 'https://specteado.netlify.app/'
         },
+        {
+          id: 2,
+          name: 'Bot SuiteStoreBot',
+          imageUrl: 'bot_v1',
+          status: 'Bot Creado desde 0 por Specteado con Node.JS con api personalizado de SellAuth',
+          tech: 'Node.js, SellAuth'
+        }
       ]
     };
   }

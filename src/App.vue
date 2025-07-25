@@ -45,7 +45,7 @@
       <router-link to="/" class="text-gray-300 hover:text-white">Home</router-link>
       <router-link to="/about" class="text-gray-300 hover:text-white">Sobre Mi</router-link>
       <router-link to="/portfolio" class="text-gray-300 hover:text-white">Portfolio</router-link>
-      <a href="https://specteados-organization.gitbook.io/specteado-blog" class="text-gray-300 hover:text-white">Blog</a>
+      <a href="https://docs.specteado.site/" class="text-gray-300 hover:text-white">Blog</a>
     </nav>
   </footer>
 </template>
